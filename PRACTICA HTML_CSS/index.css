@@ -9,12 +9,12 @@ h1{
     color:#FFC045;
     font-weight: none;
     padding-top: 50px;
-    
+
 
 }
 
 h3{
-    
+
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     height: 30px;
@@ -101,28 +101,44 @@ div h3{
 
 }
 
-.trucos{
+#trucos{
     border-radius: 5px;
     background-color: #33a7be8a;
     border: 2px dotted #33a7be8a;
     margin-top: 25%;
     height: 100%;
+    font-weight: bold;
+}
+
+.listaTrucos{
+    display: flex;
+    margin: 1px 30px;
 }
 
 #noticias{
     display: flex;
+    justify-content: space-around;
+    gap: 1px;
     margin-top: 2%;
     height: 100%;
 }
 
 .news{
     border: 2px dotted #FFC045;
-    width: 25%;
+    width: 80%;
     padding: 1px;
     border-radius: 5px;
     height: auto;
     margin-top: 20%;
-    
+    font-weight: bold;
+}
+
+
+
+
+
+.news h3{
+    color: #FFC045;
 }
 
 #section2{
