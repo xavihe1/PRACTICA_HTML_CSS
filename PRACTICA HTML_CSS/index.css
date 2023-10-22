@@ -9,6 +9,8 @@ h1{
     color:#FFC045;
     font-weight: none;
     padding-top: 50px;
+    
+
 }
 
 h3{
@@ -19,6 +21,7 @@ h3{
 }
 
 h2{
+    margin-top: 2%;
     color:#0A91AB 
     
 }
@@ -35,6 +38,7 @@ button:hover{
 
 .boton{
     display: flex;
+    
 }
 
 .container{
@@ -101,19 +105,23 @@ div h3{
     border-radius: 5px;
     background-color: #33a7be8a;
     border: 2px dotted #33a7be8a;
+    margin-top: 25%;
+    height: 100%;
 }
 
-.noticias{
+#noticias{
     display: flex;
+    margin-top: 2%;
+    height: 100%;
 }
 
 .news{
     border: 2px dotted #FFC045;
-    width: 80%;
+    width: 25%;
     padding: 1px;
     border-radius: 5px;
     height: auto;
-    margin-top: 15px;
+    margin-top: 20%;
     
 }
 
@@ -127,9 +135,13 @@ div h3{
     width: 100%;
 }
 
-.noticias h2{
-    align-items: center;
+.imatgeNoticia{
+    width: 100%;
+    margin: auto;
+    height: 300px;
 }
+
+
 
 #imatgeRanking{
     border-radius: 100px;
@@ -141,12 +153,20 @@ div h3{
 .ranking{
     display: flex;
     justify-content: space-around;
-    text-align: center;   
+    text-align: center;
+    margin-top: 2%; 
+    height: 100%;  
 }
 
 h5{
     color: #FFC045;
 }
+
+#section3 h2{
+    margin-top: 5%;
+    text-align: center;
+}
+
 footer{
     padding: 8px;
     background-color: #8A8070;
